@@ -9,7 +9,7 @@ namespace PZS.Core.Interfaces
 {
     public interface IUnitOfWork : IDisposable
     {
-        IAccountRepository Projects { get; }
+        IAccountRepository Account { get; }
         Task<int> CompletedAsync();
     }
 }

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PZS.Core\PZS.Core.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -22,8 +22,8 @@ namespace PZS.Service.Service
 
         public async Task<IEnumerable<AccountDTO>> GetAccountAsync()
         {
+            // var account = await _unitOfWork.Account.GetAll();​
             var account = await _unitOfWork.Account.GetAll();
-​
         return _mapper.Map<IEnumerable<AccountDTO>>(account);
         }
 
